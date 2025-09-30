@@ -9,12 +9,12 @@ public class SistemaRH {
 
         Desenvolvedor dev = new Desenvolvedor(
                 "Ana",
-                "DEV001",
+                12D,
                 5000,
-                50,
-                145.00);
+                50D,
+                "DEV001");
 
-        dev.registrarHoraExtra(10);
+        dev.registrarHorasExtras(10);
         funcionarios[0] = dev;
 
         Gerente gerente = new Gerente(
